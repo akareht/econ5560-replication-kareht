@@ -89,4 +89,4 @@ plt.savefig(path)
 
 
 print(f'Version: {sys.version}')
-print(f'Excutables: {sys.excutable}')
+print(f'Excutables: {sys.executable}')
