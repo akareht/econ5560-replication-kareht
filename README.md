@@ -10,9 +10,7 @@ run_all.py: loads and cleans data, replicates and saves figure 1 from the paper,
 
 replication.ipynb: loads and cleans data, shows more data exploration, replicates figure 1, and runs two conditional logit models.
 
-Installation: ...
-
-
+Installation/Execution: The repo either be downloaded through the web interface or by using the common 'git clone https://github.com/akareht/econ5560-replication-kareht'. This will create a copy of this repo on your machine, this includes downloading the data. To run the code first ensure you navigate into the directory (eg 'cd econ5560-replication-kareht') otherwise the code will not be able to read the data. Then simply run 'python run_all.py'. (Provided you have all the necessary packages installed on your machine/in your enviroment).
 
 Dependencies: Python (3.15), Juypter Notebooks, Numpy (2.5.4), Pandas (3.0.6), Matplotlib (3.11.2), Statsmodels (0.15.0), ipynbkernel (7.4.0).
 
