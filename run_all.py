@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import statsmodels as sm
 from statsmodels.discrete.conditional_models import ConditionalLogit
 import os
+import sys
 
 df = pd.read_stata("S1Table.DTA")
 
@@ -85,3 +86,7 @@ ax.axis('off')
 name = 'model 2 summary'
 path = os.path.join(folder, name)
 plt.savefig(path)
+
+
+print(f'Version: {sys.version}')
+print(f'Excutables: {sys.excutable}')
