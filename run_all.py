@@ -36,7 +36,7 @@ for i in range(len(treatments)):
     ax[i].set_yticks(y_ticks)
     ax[i].spines[['right', 'top']].set_visible(False)
 
-folder = 'outputs'
+folder = 'output'
 name = 'Figure 1'
 path = os.path.join(folder, name)
 plt.savefig(path)
